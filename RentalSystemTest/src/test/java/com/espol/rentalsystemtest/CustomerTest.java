@@ -16,9 +16,9 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author Jandry
  */
-public class MovieRentalTest {
+public class CustomerTest {
     
-    public MovieRentalTest() {
+    public CustomerTest() {
     }
     
     @BeforeAll
@@ -38,28 +38,40 @@ public class MovieRentalTest {
     }
 
     /**
-     * Test of getDaysRented method, of class MovieRental.
+     * Test of addMovieRental method, of class Customer.
      */
     @Test
-    public void testGetDaysRented() {
-        System.out.println("getDaysRented");
-        MovieRental instance = null;
-        int expResult = 0;
-        int result = instance.getDaysRented();
-        assertEquals(expResult, result);
+    public void testAddMovieRental() {
+        System.out.println("addMovieRental");
+        MovieRental arg = null;
+        Customer instance = null;
+        instance.addMovieRental(arg);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getMovie method, of class MovieRental.
+     * Test of addVideoGameRental method, of class Customer.
      */
     @Test
-    public void testGetMovie() {
-        System.out.println("getMovie");
-        MovieRental instance = null;
-        Movie expResult = null;
-        Movie result = instance.getMovie();
+    public void testAddVideoGameRental() {
+        System.out.println("addVideoGameRental");
+        VideoGameRental arg = null;
+        Customer instance = null;
+        instance.addVideoGameRental(arg);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of statement method, of class Customer.
+     */
+    @Test
+    public void testStatement() {
+        System.out.println("statement");
+        Customer instance = null;
+        String expResult = "";
+        String result = instance.statement();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
