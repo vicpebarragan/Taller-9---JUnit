@@ -1,5 +1,6 @@
-import org.junit.*;
+package com.espol.rentalsystemtest;
 
+import org.junit.*;
 import junit.framework.TestCase;
 
 
